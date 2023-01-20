@@ -23,7 +23,7 @@ export class CustomerController {
   async get(@Res() res) {
     return res
       .status(HttpStatus.OK)
-      .json({ message: 'getting data from customer 1' });
+      .json({ message: 'getting data from customer 2' });
   }
 
   // add a customer
